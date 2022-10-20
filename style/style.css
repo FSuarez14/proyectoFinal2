@@ -29,6 +29,7 @@ header{
 .logo img{
     height: 100px;
     padding-left: 15px;
+    cursor: pointer;
 }
 
 .top-menu {
@@ -37,6 +38,16 @@ header{
     text-decoration: none;
     
 }
+
+/* Se Agregar el input Search */
+.search input{
+    width: 600px;
+    padding: 10px;
+    vertical-align: middle;
+    border-radius: 5%;
+    text-align: center;
+}
+
 nav a {
     padding-right: 15px;
     color: white;
@@ -44,10 +55,12 @@ nav a {
     font-size: 18px;
     text-decoration: none;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 nav a:hover {
     color: goldenrod;
+
 }
 
 
