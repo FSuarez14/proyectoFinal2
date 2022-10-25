@@ -12,17 +12,21 @@
 <body>
     <!-- header logo + el menu  -->
     <header>
-        <div class="logo">
-            <a href="#top-menu"><img src="../assets/westernLogo.png" alt="westernLogo"></a>
+        <div class="header__container">
+            <div class="logo">
+                <a href="#top-menu"><img src="../assets/icons/westernLogo.png" alt="westernLogo"></a>
+            </div>
+            <nav>
+                <ul class="navBar">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./garantia.html">Garantias</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav class="top-menu">
-            <a href="../index.html">home</a>
-            <a href="./contacto.html">Contacto</a>
-            <a href="./garantia.html">Garantias</a>
-            <a href="./servicioTec.html">Servicio Tecnico</a>
-
-        </nav>
     </header>
+
     <main>
 
         <section class="nosotros-container">
@@ -96,84 +100,76 @@
 
         </section>
     </main>
+
     <footer>
-        <div class="container-footer-all">
-            <div class="container-body">
-
-                <div class="footer-info-container">
-                    <div class="footer-info">
-                        <h1>Mas informacion de la compañia</h1>
-
-                        <p>Desde 1998 somos una Tienda dedicada a la importación y comercialización minorista<br>
-                            y mayorista de artículos de Tecnología, Videojuegos e Informàtica.
-                            WESTERN Gaming, Love for the Game.</p>
-                    </div>
-                    <div class="footer-info">
-                        <a href="#"><img src="../assets/Meli.png" alt="CreditCard"></a>
-                    </div>
-
-                </div>
-
-                <div class="social-icons-container">
-                    <h1>Redes Sociales</h1>
-
-                    <div class="social-icon">
-                        <a href="#"><img src="../assets/facebook.png" alt="facebookLogo"></a>
-                        <label for="">Siguenos en Facebook</label>
-                    </div>
-
-                    <div class="social-icon">
-                        <a href="#"><img src="../assets/instagram.png" alt="InstagramLogo"></a>
-                        <label for="">Siguenos en Instagram</label>
-                    </div>
+        <div class="container__footer">
+            <!-- Seccion nosotros -->
+            <div class="sec aboutus__categories">
+                <h2>Sobre Nosotros</h2>
+                <p>Desde 1998 somos una Tienda dedicada a la importación y comercialización
+                    minorista y mayorista de artículos de Tecnología, Videojuegos e Informàtica.
+                    <br>
+                    WESTERN Gaming, Love for the Game.
+                    <!-- Iconos redes sociales -->
+                <ul class="social__icons">
+                    <li><a href="#" class="facebook-icon"><img src="../assets/icons/facebook-24px.png"
+                                alt="facebook-icon"></a></li>
+                    <li><a href="#" class="instagram-icon"><img src="../assets/icons/instagram-24px.png"
+                                alt="instagram-icon"></a></li>
+                    <li><a href="#" class="twitter-icon"><img src="../assets/icons/twitter-24px.png"
+                                alt="twitter-icon"></a></li>
+                    <li><a href="#" class="youtube-icon"><img src="../assets/icons/youtube-24px.png"
+                                alt="youtube-icon"></a></li>
+                </ul>
+            </div>
 
 
-                    <div class="social-icon">
-                        <a href="#"><img src="../assets/twitter.png" alt="TwitterLogo"></a>
-                        <label for="">Siguenos en Twitter</label>
-                    </div>
-
-                    <div class="social-icon">
-                        <a href="#"><img src="../assets/youtube.png" alt="YoutubeLogo"></a>
-                        <label for="">Siguenos en Youtube</label>
-                    </div>
-                </div>
-
-                <div class="menu-contact-container">
-                    <h1>Informacion Contacto</h1>
-
-                    <div class="menu-contact">
-                        <img src="../assets/gps.png" alt="IconoGSP">
-                        <label for="">Av. Siempreviva 742, Galeria FaZe, CABA, Buenos Aires, Argentina.
-                        </label>
-                    </div>
-
-                    <div class="menu-contact">
-                        <img src="../assets/whatsapp.png" alt="IconoWhatsapp">
-                        <label for="">+1-800-255-3700</label>
-                    </div>
-
-                    <div class="menu-contact">
-                        <img src="../assets/sobre.png" alt="IconoMail">
-                        <label for="">info@westerngaming.com</label>
-                    </div>
-
-                </div>
-
+            <!-- seccion Categorias secundarias -->
+            <div class="sec quicklist info__categories">
+                <h2>Información</h2>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                    <li><a href="#">Envíos</a></li>
+                    <li><a href="#">Defensa al Consumidor</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                </ul>
+            </div>
+            <div class="sec quicklist shop__categories">
+                <h2>Categorias</h2>
+                <ul>
+                    <li><a href="#">Videojuegos</a></li>
+                    <li><a href="#">Electronica</a></li>
+                    <li><a href="#">Figuras</a></li>
+                    <li><a href="#">Merchandising</a></li>
+                    <li><a href="#">PC Gaming</a></li>
+                    <li><a href="#">Códigos Digitales</a></li>
+                </ul>
+            </div>
+            <!-- Seccion Contacto -->
+            <div class="sec container__contact">
+                <h2>Contacto</h2>
+                <ul class="info">
+                    <li>
+                        <span><img src="../assets/icons/gps-24px.png" alt="gps-icon"></span>
+                        <span>Av. Siempreviva 742,Galeria FaZe,<br>CABA, Buenos Aires,<br> Argentina.</span>
+                    </li>
+                    <li>
+                        <span><img src="../assets/icons/celu-24px.png" alt="tel-icon"></span>
+                        <p><a href="tel:+18002553700">+1-800-255-3700</a></p>
+                    </li>
+                    <li>
+                        <span><img src="../assets/icons/email-24px.png" alt="mail-icon"></span>
+                        <p><a href="mailto:info@westerngaming.com">info@westerngaming.com</a></p>
+                    </li>
+                </ul>
             </div>
         </div>
-
-        <div class="container-footer">
-            <span class="copyright">&copy; WESTERN Gaming 2022 | All right reserved.</span>
-
-            <div class="Informacion-inicial">
-                <a href="#"> Prensa </a> |
-                <a href="#"> Política de privacidad</a> |
-                <a href="#"> Terminos y Condiciones</a>
-            </div>
-        </div>
-
     </footer>
+    <div class="copyright">
+        <span class="copyright">&copy; WESTERN Gaming 2022 | All right reserved.</span>
+    </div>
 
 
 </body>
