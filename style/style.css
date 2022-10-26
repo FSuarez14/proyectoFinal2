@@ -435,8 +435,8 @@ footer .container__footer .sec p{
     
     .navBar a{
         text-align: center;
-        padding: 14px; 
-        font-size: 15px;
+        padding-left: 15px;
+        font-size: 13px;
         font-weight: 500px;
     }
 
